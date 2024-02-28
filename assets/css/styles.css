@@ -394,12 +394,13 @@ body.dark-theme{
 
 .home__social-link{
   font-size: 1.5rem;
-  color: var(--title-color);
+  color: var(--first-color);
   transition: color .4s;
 }
 
 .home__social-link:hover{
-  color: var(--first-color);
+  color: var(--first-color-light);
+  transform: translateY(-.25rem);
 }
 
 .home__button{
@@ -477,7 +478,7 @@ body.dark-theme{
   padding: 3.5rem 1.5rem;
   box-shadow: 0 12px 24px var(--shadow-color);
   text-align: center;
-  transition: nackground-color .4s;
+  transition: background-color .4s;
 }
 
 .services__icon{
@@ -1017,9 +1018,7 @@ body.dark-theme{
     justify-self: flex-start;
   }
 
-  .home__social-link{
-    color: var(--first-color);
-  }
+  
 
   .home__button{
     justify-self: flex-start;
